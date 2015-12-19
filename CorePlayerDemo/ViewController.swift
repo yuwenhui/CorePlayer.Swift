@@ -19,8 +19,8 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        corePlayer.view().frame = self.view.bounds
+        self.automaticallyAdjustsScrollViewInsets = false
+        corePlayer.view().frame = CGRect(x: 0, y: 64, width: self.view.bounds.size.width, height: self.view.bounds.height)
         corePlayer.view().autoresizingMask = UIViewAutoresizing.FlexibleWidth.union(UIViewAutoresizing.FlexibleHeight)
         view.addSubview(corePlayer.view())
       

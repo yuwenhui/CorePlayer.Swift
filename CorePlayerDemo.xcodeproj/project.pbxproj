@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5055806C1C252D1E002A0767 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5055806B1C252D1E002A0767 /* MainController.swift */; };
+		5055806E1C252DE1002A0767 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5055806D1C252DE1002A0767 /* Util.swift */; };
 		7119DCF81AE4ECEC00185672 /* CPModuleViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7119DCF71AE4ECEC00185672 /* CPModuleViewDelegate.swift */; };
 		7119DCFA1AE4EF6000185672 /* CPModuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7119DCF91AE4EF6000185672 /* CPModuleView.swift */; };
 		7119DCFC1AE4F47300185672 /* CPModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7119DCFB1AE4F47300185672 /* CPModule.swift */; };
@@ -42,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5055806B1C252D1E002A0767 /* MainController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		5055806D1C252DE1002A0767 /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
 		7119DCF71AE4ECEC00185672 /* CPModuleViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CPModuleViewDelegate.swift; sourceTree = "<group>"; };
 		7119DCF91AE4EF6000185672 /* CPModuleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CPModuleView.swift; sourceTree = "<group>"; };
 		7119DCFB1AE4F47300185672 /* CPModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CPModule.swift; sourceTree = "<group>"; };
@@ -111,6 +115,8 @@
 			children = (
 				71AF8A631ADD391900228A3D /* CorePlayer */,
 				71AF8A411ADD38D200228A3D /* AppDelegate.swift */,
+				5055806D1C252DE1002A0767 /* Util.swift */,
+				5055806B1C252D1E002A0767 /* MainController.swift */,
 				71AF8A431ADD38D200228A3D /* ViewController.swift */,
 				71D0F67D1AEF25E700CB7B2D /* ModuleView.swift */,
 				71C022601BF9DF4600AC8CCD /* ProgressView.swift */,
@@ -299,6 +305,8 @@
 				7119DCFC1AE4F47300185672 /* CPModule.swift in Sources */,
 				71D0F67E1AEF25E700CB7B2D /* ModuleView.swift in Sources */,
 				71AF8A441ADD38D200228A3D /* ViewController.swift in Sources */,
+				5055806C1C252D1E002A0767 /* MainController.swift in Sources */,
+				5055806E1C252DE1002A0767 /* Util.swift in Sources */,
 				7119DCFE1AE4F50A00185672 /* CPModuleManager.swift in Sources */,
 				7119DD001AE4FD9200185672 /* CorePlayerFeature.swift in Sources */,
 				71AF8A671ADD3DBD00228A3D /* CPModuleDelegate.swift in Sources */,
